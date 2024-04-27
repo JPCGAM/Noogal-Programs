@@ -3,12 +3,13 @@ A unified repository of all of my programs created for NoogalVerse stuff.
 There are three main sections for it, the political programs, the space programs and the battle programs.
 Throughout them, I use a numbering system, with said numbering being "##.@", with the "##" being the version of the program, and the "@" being the status. A @ of 0 means the program is not in use, while a 1 means it is in use. A 2 means that it is in testing but it would be rare for me to upload either a ".0" or ".2".
 
-The political programs are mainly composed of 3 programs:
+The political programs are mainly composed of 4 programs:
 - 2 programs that design random political parties, often with conflicting ideologies for the 01 version
 - The "Election Simulator Ultimate", is meant to be the main program to use for elections.
 - And the "Municipal style" program "part 0"; this is meant as a way to generate a long (like 100 or more regions) CountryData file to not do it by hand. Although it likely needs some work as I made it before I made quite a lot of changes to the election simulator.
+- The fourth is "Parliament Voting Sim", which simulates a parliament voting on something. It bases the probability on the position of "left-right" spectrum of the party proposing it, and then it goes one by one for each other party based on their positon of the same spectrum.
 
-I also addedd two text files, "CountryData.txt", an example of what a file could look like, and "CountryData - Template.txt", which shows what each value on the file is.
+I also added two text files, "CountryData.txt", an example of what a file could look like, and "CountryData - Template.txt", which shows what each value on the file is.
 
 Then there are the space programs:
 - The first program picks some random number of biomes to give to a planet based on its type, temperature ranges and other bits. Mainly used for my worldbuilding so not exactly realistic.
